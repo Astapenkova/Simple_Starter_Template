@@ -1,5 +1,8 @@
 @colorText: #a276ff;
 @frontOswald: "Oswald", sans-serif;
+
+// border: 1px solid red;
+
 @font-face {
   font-family: "Playpen_Sans";
   font-style: normal;
@@ -224,18 +227,33 @@ body {
   font-size: 18px;
   margin-bottom: 30px;
 }
+.social-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
 
-.btn {
-}
-.social-btn {
-  margin-left: 470px;
+.social {
+  display: flex;
   background-color: @colorText;
-  border: none;
+  width: 235px;
+  height: 50px;
+  border-radius: 0 0 15px 15px;
 }
-.fb_img {
+.social-img-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 50%;
 }
-.tw_img {
+.tw {
+  background: url("img/tw.svg");
 }
+.fb {
+  display: block;
+  background: url("img/fb.svg");
+}
+
 .sabyr-main_ITEM1 {
   width: 90%;
   display: flex;
@@ -283,14 +301,14 @@ body {
 .main_ITEM1- {
   font-family: "Playpen_Sans";
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   color: black;
   margin-bottom: 10px;
 }
 h4 {
-  font-family: "Oswald";
-  font-weight: 400;
-  font-size: 15px;
+  font-family: "Playpen_Sans";
+  font-weight: 700;
+  font-size: 17px;
 }
 .paragraph {
 }

@@ -202,10 +202,30 @@ body {
   font-size: 18px;
   margin-bottom: 30px;
 }
-.social-btn {
-  margin-left: 470px;
+.social-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+.social {
+  display: flex;
   background-color: #a276ff;
-  border: none;
+  width: 235px;
+  height: 50px;
+  border-radius: 0 0 15px 15px;
+}
+.social-img-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.tw {
+  background: url("img/tw.svg");
+}
+.fb {
+  display: block;
+  background: url("img/fb.svg");
 }
 .sabyr-main_ITEM1 {
   width: 90%;
@@ -251,12 +271,12 @@ body {
 .main_ITEM1- {
   font-family: "Playpen_Sans";
   font-weight: 400;
-  font-size: 15px;
+  font-size: 17px;
   color: black;
   margin-bottom: 10px;
 }
 h4 {
-  font-family: "Oswald";
-  font-weight: 400;
-  font-size: 15px;
+  font-family: "Playpen_Sans";
+  font-weight: 700;
+  font-size: 17px;
 }
